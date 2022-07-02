@@ -2,8 +2,8 @@
 name: PR Sanity Check
 
 on: 
-  pull_request
-  workflow_dispatch
+  - pull_request
+  - workflow_dispatch
 
 jobs:
   lint:
