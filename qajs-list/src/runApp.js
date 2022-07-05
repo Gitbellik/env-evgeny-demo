@@ -16,7 +16,7 @@ export function runApp(el) {
     </div>
   `;
 
-  const button = el.querySelector("button");
+  const button = el.querySelector("button2");
   const input = el.querySelector("input");
   const historyContainer = el.querySelector('[data-testid="historyContainer"]');
 
